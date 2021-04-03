@@ -1,0 +1,27 @@
+{
+  "name": "appweather",
+  "version": "1.0.0",
+  "description": "Proyecto Personal Eliezer",
+  "main": "index.js",
+  "scripts": {
+    "bild": "npx webpack --mode production"
+  },
+  "keywords": [
+    "Javascript",
+    "Node",
+    "Js",
+    "Htm",
+    "l",
+    "Css\u001b[D\u001b[D\u001b[D\u001b[D\u001b[\u001b[\u001b[C\u001bl\u001b[\u001b[C\u001b\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
+  ],
+  "author": "Eliezer Rojas\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DJavier Rojas",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^5.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
