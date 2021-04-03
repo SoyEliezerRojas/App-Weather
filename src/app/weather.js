@@ -7,7 +7,7 @@ export class Weather{
     }
 
     async getWeather(){
-        const URL = `http://api.openweathermap.org/data/2.5/weather?q=${this.city},${this.countryCode}&lang=${this.lang}&appid=${this.APIkey}&units=metric`
+        const URL = `https://api.openweathermap.org/data/2.5/weather?q=${this.city},${this.countryCode}&lang=${this.lang}&appid=${this.APIkey}&units=metric`
         const response = await fetch(URL)
         const data = await response.json()
         return data
